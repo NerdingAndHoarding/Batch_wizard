@@ -1,4 +1,4 @@
-### Batch\_Wizard and Gen\_Vocab by Nerding and Hoarding 2026
+### Batch_Wizard and Gen_Vocab by Nerding and Hoarding 2026
 
 User instructions
 
@@ -6,19 +6,19 @@ User instructions
 
 &#x20;
 
-2\. Click "01\_Batch\_Wizard\_gui.py"
+2\. Click "01_Batch_Wizard_gui.py"
 
 Select your audio folder and name your txt file. (it is only a temporary file). Make adjustments to all the parameters.
 
 
 
-3\. Click "02\_Gen\_Vocab\_gui.py"
+3\. Click "02_Gen_Vocab_gui.py"
 
 Name your vocal libray (YOURNAME). And find the txt file generated earlier. Click generate.
 
 
 
-4\. Open the talkie\_YOURNAME.ino file in the talkie\_YOURNAME folder and upload to your arduino board.
+4\. Open the talkie_YOURNAME.ino file in the talki\_YOURNAME folder and upload to your arduino board.
 
 
 
@@ -28,19 +28,18 @@ Name your vocal libray (YOURNAME). And find the txt file generated earlier. Clic
 
 6\. To use your vocab in an arduino scetch you must have the  YOURNAME.h and YOURNAME.cpp in the same folder as your arduino sketch (.ino file) write (#include "Talkie.h"
 
-\#include "vocab\_YOURNAME.h") at the top of your scetch. call the sounds voice.say(z\_001);
+\#include "vocab_YOURNAME.h") at the top of your scetch. call the sounds voice.say(z_001);
 
 
 
-7\. Read more on https://github.com/NerdingAndHoarding
+7. Quick n' Dirty Tutorial at: https://youtu.be/mL2wercQGJo
 
+8. Read more on https://github.com/NerdingAndHoarding
 
+9. https://github.com/ptwz/python_wizard
 
-8\. https://github.com/ptwz/python\_wizard
+10. Read up on original Talkie for more information https://github.com/going-digital/Talkie
 
-
-
-9\. Read up on original Talkie for more information https://github.com/going-digital/Talkie
 
 ### 
 
