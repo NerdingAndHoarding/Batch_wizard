@@ -1,0 +1,3 @@
+﻿python python_wizard.py -f arduino .\z_Brotherhood.wav
+python python_wizard.py -f arduino .\z_Equality.wav
+python python_wizard.py -f arduino .\z_ForAllOfGodsChildren.wav
