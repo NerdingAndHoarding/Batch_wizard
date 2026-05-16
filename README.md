@@ -4,11 +4,11 @@
 
 User instructions for using Batch_wizard:
 
-0. Download "code" -> "zipfile" at https://github.com/NerdingAndHoarding/Batch_wizard
+-1\. Download "code" -> "zipfile" at https://github.com/NerdingAndHoarding/Batch_wizard
 
-1. Extract the Zipfile on your PC. open folder 
+0\. Extract the Zipfile on your PC. open folder 
 
-2. Save your audio-clips for your Vocab Library in a folder. They must be .wav Mono 8000khz Signed 16-bit PCM. You can use Audacity for cutting and making wave from mp3. About 80-90 seconds total fits on Arduino Nano.
+1\. Save your audio-clips for your Vocab Library in a folder. They must be .wav Mono 8000khz Signed 16-bit PCM. You can use Audacity for cutting and making wave from mp3. About 80-90 seconds total fits on Arduino Nano.
 
 &#x20;
 
