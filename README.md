@@ -4,47 +4,47 @@
 
 User instructions for using Batch_wizard:
 
--1\. Download "code" -> "zipfile" at https://github.com/NerdingAndHoarding/Batch_wizard
+1\. Download "code" -> "zipfile" at https://github.com/NerdingAndHoarding/Batch_wizard
 
-0\. Extract the Zipfile on your PC. open folder 
+2\. Extract the Zipfile on your PC. open folder 
 
-1\. Save your audio-clips for your Vocab Library in a folder. They must be .wav Mono 8000khz Signed 16-bit PCM. You can use Audacity for cutting and making wave from mp3. About 80-90 seconds total fits on Arduino Nano.
+3\. Save your audio-clips for your Vocab Library in a folder. They must be .wav Mono 8000khz Signed 16-bit PCM. You can use Audacity for cutting and making wave from mp3. About 80-90 seconds total fits on Arduino Nano.
 
 &#x20;
 
-2\. Click "01_Batch_Wizard_gui.py"
+4\. Click "01_Batch_Wizard_gui.py"
 
 Select your audio folder and name your txt file. (it is only a temporary file). Make adjustments to all the parameters.
 
 
 
-3\. Click "02_Gen_Vocab_gui.py"
+5\. Click "02_Gen_Vocab_gui.py"
 
 Name your vocal libray (YOURNAME). And find the txt file generated earlier. Click generate.
 
 
 
-4\. Open the talkie_YOURNAME.ino file in the talki\_YOURNAME folder and upload to your arduino board.
+6\. Open the talkie_YOURNAME.ino file in the talki\_YOURNAME folder and upload to your arduino board.
 
 
 
-5\. Start serial monitor at 115200. write number 1, 2 , 3 etc + ENTER to test the sounds in your vocab library.
+7\. Start serial monitor at 115200. write number 1, 2 , 3 etc + ENTER to test the sounds in your vocab library.
 
 
 
-6\. To use your vocab in an arduino scetch you must have the  YOURNAME.h and YOURNAME.cpp in the same folder as your arduino sketch (.ino file) write (#include "Talkie.h"
+8\. To use your vocab in an arduino scetch you must have the  YOURNAME.h and YOURNAME.cpp in the same folder as your arduino sketch (.ino file) write (#include "Talkie.h"
 
 \#include "vocab_YOURNAME.h") at the top of your scetch. call the sounds voice.say(z_001);
 
 
 
-7. Quick n' Dirty Tutorial at: https://youtu.be/mL2wercQGJo
+9\. Quick n' Dirty Tutorial at: https://youtu.be/mL2wercQGJo
 
-8. Read more on https://github.com/NerdingAndHoarding
+10\. Read more on https://github.com/NerdingAndHoarding
 
-9. https://github.com/ptwz/python_wizard
+11\. https://github.com/ptwz/python_wizard
 
-10. Read up on original Talkie for more information https://github.com/going-digital/Talkie
+12\. Read up on original Talkie for more information https://github.com/going-digital/Talkie
 
 
 ### 
